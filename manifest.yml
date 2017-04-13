@@ -6,3 +6,5 @@ applications:
   name: Studentdb
   host: mystudentdb
   disk_quota: 1024M
+env:
+    PHP_INI_SCAN_DIR: /.bp-config/php/conf.d
