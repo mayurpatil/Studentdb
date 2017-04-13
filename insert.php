@@ -2,8 +2,8 @@
   error_reporting(E_ALL ^ E_DEPRECATED);
   if(ISSET($_POST["btn"]) && (isset($_FILES['userfile'])))
   {
-    $con=mysql_connect('us-cdbr-iron-east-03.cleardb.net','bb9b0870059d57','d5d7b629')  or die ("Con Error".mysql_error());
-    mysql_select_db('ad_0b781c87c100f47',$con);
+    $con=mysql_connect('Server Name','UserName','Passwd')  or die ("Con Error".mysql_error());
+    mysql_select_db('DB Name',$con);
 
     $USN=$_POST["USN"];      
     $Name=$_POST["Name"];      
